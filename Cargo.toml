@@ -1,0 +1,18 @@
+[package]
+name = "wssecurity"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+xml-rs = "*"
+thiserror = "2.0.12"
+derive_more = { version = "2.0.1", features = ["full"] }
+tinystr = "*"
+chrono = "*"
+base64 = "*"
+#rsa = "0.8"
+#sha2 = "0.9"
+ring = "*"
+#hex = "0.4.3"
+#pkcs12 = "0.1.0"
+#digest = "*"
